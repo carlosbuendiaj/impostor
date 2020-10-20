@@ -53,9 +53,7 @@ function Partida(num, owner){
 		}
 			this.usuarios[nuevo]=new Usuario(nuevo);
 			this.usuarios[nuevo].partida=this;
-			if(Object.keys(this.usuarios).length=>this,maximo){
-				this.fase = new Completado();
-			}
+			
 	}
 
 	this.comprobarMinimo=function(){
